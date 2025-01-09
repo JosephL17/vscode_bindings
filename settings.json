@@ -29,6 +29,17 @@
     { "before": ["leader", "v"], "commands": [":vsplit"] },
     { "before": ["leader", "s"], "commands": [":split"] },
 
+    // Toggle Terminal
+    {
+      "before": ["leader", "t"],
+      "commands": ["workbench.action.terminal.toggleTerminal"]
+    },
+
+    // Toggle Terminal close with CTRL + j
+
+    // Toggle File Tree
+    // CTRL + shft + e to focus on file tree
+
     // panes
     {
       "before": ["leader", "h"],
