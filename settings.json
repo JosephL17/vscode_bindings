@@ -114,9 +114,21 @@
     { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
   ],
   "workbench.colorTheme": "Vesper Black",
+  // Changes the color of the file highlighted in the file explorer
+  "workbench.colorCustomizations": {
+    "list.activeSelectionBackground": "#ffc783",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#3a3d41",
+    "list.hoverBackground": "#37373d",
+    "list.focusBackground": "#ffc783"
+  },
   "chat.commandCenter.enabled": false,
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.activityBar.location": "hidden"
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.activityBar.location": "hidden",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
